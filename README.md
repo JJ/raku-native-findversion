@@ -1,8 +1,7 @@
-# Raku Distribution Template
+# Native::FindVersion
 
-Template for Raku modules, classes, roles, to be distributed as a
-single package in the ecosystem. Fill this README with your
-instructions.
+Tries to find all available versions of the shared libraries used in `native
+` modules.
 
 ## Installing
 
@@ -19,5 +18,7 @@ install from source -->
 <-- Related stuff -->
 
 ## License
-<-- 
-This module will be licensed, by default, under the Artistic 2.0 License (the same as Raku itself). You can change it by using a different LICENSE file, as well as changing the license field in META6.json -->
+ 
+(c) JJ Merelo, jj@raku.org 2022
+
+This module will be licensed, by default, under the Artistic 2.0 License (the same as Raku itself). 
