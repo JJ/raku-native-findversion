@@ -4,9 +4,8 @@
   "version": "0.0.1",
   "perl": "6.d",
   "meta-version": 1,
-  "authors": [],
-  "auth": "",
-  "depends": [],
+  "authors": ["JJ Merelo"],
+  "auth": "zef:jjmerelo",
   "test-depends": [
     "Test",
     "Test::META"
