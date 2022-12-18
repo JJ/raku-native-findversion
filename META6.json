@@ -1,6 +1,6 @@
 {
-  "name": "Your::Module::Name::Here",
-  "description": "Raku distribution template",
+  "name": "Native::FindVersion",
+  "description": "Find the co",
   "version": "0.0.1",
   "perl": "6.d",
   "meta-version": 1,
@@ -13,12 +13,9 @@
   "provides": {
     "Native::FindVersion": "lib/Native/FindVersion.rakumod"
   },
-  "resources": [
-    ".resources_files_go_here"
-  ],
   "license": "Artistic-2.0",
   "tags": [
-    "modules","template","test"
+    "NativeCall","Utilities","test"
   ],
-  "source-url": ""
+  "source-url": "https://github.com/JJ/raku-native-findversion"
 }
