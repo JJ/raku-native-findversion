@@ -1,13 +1,11 @@
-# Native::FindVersion
+# Native::FindVersion [![Test-install distro](https://github.com/JJ/raku-native-findversion/actions/workflows/test.yaml/badge.svg)](https://github.com/JJ/raku-native-findversion/actions/workflows/test.yaml)
 
 Tries to find all available versions of the shared libraries used in `native
 ` modules.
 
 ## Installing
 
-
-<-- Fill your prerequisites here, how to install using zef, how to
-install from source -->
+Just the usual `zef install Native::FindVersion`.
 
 ## Running
 
