@@ -1,6 +1,6 @@
 {
   "name": "Native::FindVersion",
-  "description": "Find the co",
+  "description": "Find the last, or only, installed version of a shared lib",
   "version": "0.0.1",
   "perl": "6.d",
   "meta-version": 1,
@@ -17,5 +17,5 @@
   "tags": [
     "NativeCall","Utilities","test"
   ],
-  "source-url": "https://github.com/JJ/raku-native-findversion"
+  "source-url": "https://github.com/JJ/raku-native-findversion.git"
 }
