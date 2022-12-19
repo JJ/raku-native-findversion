@@ -15,7 +15,7 @@ sub latest-version( Str $lib-name ) returns Version is export {
                 / );
         @found-paths.push( @found-in-path ) if @found-in-path;
     }
-    return Version.new(0) unless @found-paths;
+    Exception.new(message => "Can't find $lib-name").throw unless @found-paths;
     my @version-s = @found-paths.map:
             *.split( / "so." | "dynlib." | "dll." | "DLL." /)[1];
     my Set $version-v;
