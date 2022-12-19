@@ -32,6 +32,17 @@ Since the version needs to be known at compile time, it needs to be assigned
   
 In this case we're using a shared library and function that can be found in
  most Linux systems, `libgcc`.
+ 
+For ease of use, there's a function that returns directly the `native` argument:
+
+```raku
+constant @native-arg = latest-version-arg("gcc_s");
+sub gcc-mod( int32 $a, int32 $b)
+        returns int32
+        is native(@native-arg)
+        is symbol("__modti3")
+{*};
+```
 
 ## See also
 
