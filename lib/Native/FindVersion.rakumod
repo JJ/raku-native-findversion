@@ -22,3 +22,7 @@ sub latest-version( Str $lib-name ) returns Version is export {
     $version-v ∪= $_ for @version-s;
     return Version.new: $version-v.max.key;
 }
+
+sub latest-version-arg( Str $lib-name ) returns Positional is export {
+    return [ $lib-name, latest-version( $lib-name )];
+}
